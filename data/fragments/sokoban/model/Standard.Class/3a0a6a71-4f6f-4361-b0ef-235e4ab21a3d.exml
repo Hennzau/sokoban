@@ -82,8 +82,8 @@
                 <ID name="" mc="Infrastructure.Note" uid="0d6c6221-d952-4bc4-9453-1f8dd959b8b7"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[return LevelLoader.loadFromString(new String[] { "WWWWWWWWWWWW", "WWWWWWWW  WW", "WWWWWWWW BWW", "WWPWWWWW  WW",
-                        "WW WT  W  WW", "W  B   B  WW", "W   W     TW", "WWB WWTWW WW", "WWT  WWWW WW", "WW B WWWW WW",
-                        "WW  WWWWWTWW", "WWWWWWWWWWWW" });]]></ATT>
+                                        "WW WT  W  WW", "W  B   B  WW", "W   W     TW", "WWB WWTWW WW", "WWT  WWWW WW", "WW B WWWW WW",
+                                        "WW  WWWWWTWW", "WWWWWWWWWWWW" });]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

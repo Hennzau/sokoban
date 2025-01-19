@@ -609,6 +609,7 @@ this.boxes = boxes;
         // because the player cannot move two boxes at the same time.
         
         if (this.boxes.get(box.getPosition().moved(direction)) != null) {
+            this.boxes.put(next, box); // Put it back, because at the same place because it didn't move.
             return;
         }
         
@@ -774,7 +775,7 @@ this.boxes = boxes;
             </COMP>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="62f4ffdd-6559-476a-80dc-200a4870d0d7"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="a0b6d4dc-4513-4aa5-892d-43705da835f0"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -849,7 +850,7 @@ this.boxes = boxes;
             </COMP>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="46b55168-23c8-4e91-8558-196ccb52c900"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="ad6b9208-63bd-4c80-90ef-7ff367b6fb30"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -909,7 +910,7 @@ this.boxes = boxes;
                   </LINK>
                   <COMP relation="Tag">
                     <OBJECT>
-                      <ID name="" mc="Infrastructure.TaggedValue" uid="4a7f94c3-d7f5-4233-8a1c-5fe2c01e5c67"/>
+                      <ID name="" mc="Infrastructure.TaggedValue" uid="6fe6e732-c125-44b1-8f87-6a3a9f396af3"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -986,7 +987,7 @@ this.boxes = boxes;
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="833df0e4-6d26-4ea1-84ac-429b8d468168"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="e99118df-3441-4035-aaf4-aeff9bf9078d"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

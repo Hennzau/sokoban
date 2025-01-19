@@ -14,7 +14,10 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
+        <COMPID name="moveables" mc="Standard.Package" uid="d15db87a-fd19-4416-8cb0-32936d40bee6"/>
         <COMPID name="Position" mc="Standard.Class" uid="409f3e62-427e-44fa-a451-4cd652e531d8"/>
+        <COMPID name="Grid" mc="Standard.Class" uid="61c471a2-ead4-48a1-a33c-4e5d5560ce5c"/>
+        <COMPID name="Level" mc="Standard.Class" uid="0f082b84-41ac-4765-949a-ba16dcf9f4fd"/>
         <OBJECT>
           <ID name="Cell" mc="Standard.Enumeration" uid="ead0af13-8fd7-4d86-8a34-683b8b30aa21"/>
           <ATTRIBUTES>
@@ -109,16 +112,13 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-        <COMPID name="Grid" mc="Standard.Class" uid="61c471a2-ead4-48a1-a33c-4e5d5560ce5c"/>
-        <COMPID name="Level" mc="Standard.Class" uid="0f082b84-41ac-4765-949a-ba16dcf9f4fd"/>
         <COMPID name="Moveable" mc="Standard.Class" uid="1becea0c-eb01-4a07-99e4-e5eff03f4b4f"/>
-        <COMPID name="moveables" mc="Standard.Package" uid="d15db87a-fd19-4416-8cb0-32936d40bee6"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
       </LINK>
       <COMP relation="Product">
-        <COMPID name="Sokoban Entities" mc="Standard.ClassDiagram" uid="632b531c-72c8-4088-92ef-39caba2958f7"/>
+        <COMPID name="Sokoban Entities" mc="Standard.ClassDiagram" uid="81fdfee4-46c8-40fb-a216-ad4527d88a09"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

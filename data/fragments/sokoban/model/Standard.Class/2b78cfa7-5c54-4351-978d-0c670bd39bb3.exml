@@ -150,21 +150,36 @@ try {
 }
 
 String actions;
-System.out.println("Choose (udrl for up, down, right, left) or'quit' to leave:");
+System.out.println(
+        "Choose (udrl for up, down, right, left) or 'quit' to leave or 'help' to see solution from start:");
 while (true) {
+    System.out.println(LevelView.view(controller.getLevel()));
     if (controller.checkVictory()) {
         System.out.println("You won!");
         break;
     }
-    
-    System.out.println(LevelView.view(controller.getLevel()));
-    
+
     System.out.print("Actions: ");
     actions = scanner.nextLine();
 
     if (actions.equalsIgnoreCase("quit")) {
         System.out.println("Thanks for playing!");
         break;
+    }
+
+    if (actions.equalsIgnoreCase("help")) {
+        switch (levelChoice) {
+        case 1:
+            System.out.println("rrurd");
+            break;
+        case 2:
+            System.out.println("dldlruruulllddduuurrrddllddluuudrrurul");
+            break;
+        default:
+            System.out.println("No solution for this level...");
+            break;
+        }
+        continue;
     }
 
     for (char action : actions.toCharArray()) {

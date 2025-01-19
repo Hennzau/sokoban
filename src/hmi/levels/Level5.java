@@ -8,8 +8,8 @@ public class Level5 {
     @objid ("5fc27b2a-6079-479f-8b11-b05c7163662c")
     public static Level buildFromString() throws Exception {
         return LevelLoader.loadFromString(new String[] { "WWWWWWWWWWWW", "WWWWWWWW  WW", "WWWWWWWW BWW", "WWPWWWWW  WW",
-                                "WW WT  W  WW", "W  B   B  WW", "W   W     TW", "WWB WWTWW WW", "WWT  WWWW WW", "WW B WWWW WW",
-                                "WW  WWWWWTWW", "WWWWWWWWWWWW" });
+                                                "WW WT  W  WW", "W  B   B  WW", "W   W     TW", "WWB WWTWW WW", "WWT  WWWW WW", "WW B WWWW WW",
+                                                "WW  WWWWWTWW", "WWWWWWWWWWWW" });
     }
 
 }

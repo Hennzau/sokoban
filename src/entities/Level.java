@@ -75,7 +75,7 @@ public class Level {
                 // because the player cannot move two boxes at the same time.
                 
                 if (this.boxes.get(box.getPosition().moved(direction)) != null) {
-                	this.boxes.put(next, box); // Put it back, because at the same place because it didn't move.
+                    this.boxes.put(next, box); // Put it back, because at the same place because it didn't move.
                     return;
                 }
                 

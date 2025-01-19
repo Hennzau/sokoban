@@ -453,7 +453,7 @@ try {
             </COMP>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="75a43bc4-5bc0-4abe-bdcf-7d615f199746"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="cda88a20-cfdd-4384-92bc-3e9d202158ba"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

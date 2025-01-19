@@ -82,7 +82,7 @@
                 <ID name="" mc="Infrastructure.Note" uid="7039b86c-552e-4d46-adf9-458895340e98"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[return LevelLoader.loadFromString(
-                        new String[] { "WWWWWWW", "WWTT  W", "WW WBPW", "WW B  W", "WW B WW", "WT  WWW", "WWWWWWW" });]]></ATT>
+                                        new String[] { "WWWWWWW", "WWTT  W", "WW WBPW", "WW B  W", "WW B WW", "WT  WWW", "WWWWWWW" });]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

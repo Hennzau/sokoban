@@ -8,7 +8,7 @@ public class Level3 {
     @objid ("0f386a36-c1e4-429e-ae92-f4a404564ab4")
     public static Level buildFromString() throws Exception {
         return LevelLoader.loadFromString(new String[] { "WWWWWWWWWWW", "W         W", "W B  W B  W", "WWW  WWW  W",
-                                "WT    PW TW", "WWWWWWWWWWW" });
+                                                "WT    PW TW", "WWWWWWWWWWW" });
     }
 
 }
