@@ -13,6 +13,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="entities" mc="Standard.Package" uid="4a87cbbc-7f7f-49be-aad5-1b72e2415c2f"/>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
       </LINK>
