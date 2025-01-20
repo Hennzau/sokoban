@@ -68,6 +68,7 @@ public class Level {
         
             if (box != null) {
                 if (!box.canMoveOnGrid(direction, grid)) {
+                	this.boxes.put(next, box); // Put it back, because at the same place because it didn't move.
                     return;
                 }
                 
