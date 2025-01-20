@@ -143,6 +143,8 @@ public class Window extends JFrame implements KeyListener {
 	}
 
 	private void loadLevel(int level) {
+		victoryPanel.setVisible(false);
+		
 		currentLevel = level;
 
 		try {
@@ -191,7 +193,7 @@ public class Window extends JFrame implements KeyListener {
 		if (currentLevel < 5) {
 			currentLevel++;
 			levelSelector.setSelectedIndex(currentLevel - 1);
-			victoryPanel.setVisible(false);
+			
 			loadLevel(currentLevel);
 		} else {
 			JOptionPane.showMessageDialog(this, "Congratulations! You've completed all levels!");
